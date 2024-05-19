@@ -8,7 +8,7 @@ To run the API locally, follow these steps:
 
 ### Prerequisites
 
-- [.NET Core SDK](https://dotnet.microsoft.com/download)
+- [.NET Core SDK 8.0](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/) (optional)
 
 ### Installation
