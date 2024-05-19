@@ -16,7 +16,7 @@ To run the API locally, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone git@gitlab.com:eng_ammar_yousif/currency-converter.git
+   git clone https://github.com/e-ammar-yousif/CurrencyConverter.git
 2. Navigate to the project directory:
    ```bash
    cd currency-converter
