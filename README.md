@@ -26,7 +26,10 @@ To run the API locally, follow these steps:
 4. Run the API:
    ```bash
    dotnet run --project CurrencyConverter
-5. Open your web browser and navigate to https://localhost:5279 to access the API documentation using Swagger.'
+5. Open your web browser and navigate to http://localhost:5279/swagger to access the API documentation using Swagger.'
+6. You can hit the api endpoints from command line using curl: 
+   ```bash
+   curl -X GET "http://localhost:5279/api/exchangerates/latest?baseCurrency=USD" -H "Accept: application/json"
 ### Usage
 #### Endpoints
 - GET **/api/exchangerates/latest**: Retrieve the latest exchange rates for a specific base currency.
